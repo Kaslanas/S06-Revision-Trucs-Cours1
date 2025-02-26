@@ -11,5 +11,6 @@ public class CreationMonnaiesOr : MonoBehaviour
     {
         Quaternion _rotation = Quaternion.Euler(0f, 90f, 0f);
         Instantiate(_prefabOriginal, _positionCreation, _rotation);
+        
     }
 }

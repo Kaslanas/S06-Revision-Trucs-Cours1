@@ -6,7 +6,7 @@ public class VariationPositionAleatoire : MonoBehaviour
 {
     [SerializeField] private float _distanceMaximale;
 
-    void Start()
+    void Update()
     {
         // Declarer et initialiser une variable locale
         Vector3 nouvellePosition = Vector3.zero;
